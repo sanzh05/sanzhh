@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <title>Index</title>
+</head>
+<body>
+    <nav class="navbar">
+        <img src="./src/public/брекоткин.jpg" width="100" height="100" alt="logo"> 
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="video.html">Video</a></li>
+            <li><a href="audio.html">Audio</a></li>
+            <li><a href="book.html">Book</a></li>
+        </ul>
+        <div><a href="https://ku.edu.kz">Entry</a></div>
+        <div class="burger" id="burger2">
+            <span></span>
+            <span></span>
+            <span></span>   
+        </div>
+    </nav>
+    <main>
+        <div>
+            <p>Name: Leshka.</p>
+            <p>Surname: Kyshtymsy.</p>
+            <p>Age: 28 years old.</p>
+            <p>Place of birth: Kyshtym, Russian Federation.</p>
+            <p>Profession: Alien</p>
+        </div>
+        <img src="./src/public/я2.jpg" width="200" height="200" alt="Photo">
+        <div>
+            <p>Interests: JavaScript programming, playing Call Of Duty.</p>
+            <p>Hobbies: Drawing stripes on fields.</p>
+            <p>Life views: Liberal.</p>
+            <p>Credo: Alien is cooler than predator.</p>
+        </div>
+        <section>
+            <h2>Essay</h2>
+            <p>Alyoshenka was a greyish fetus about 25 centimeters (9.8 in) in length.
+                Its hairless head had a number of dark spots. The eyes were large, occupying most of the face.
+                The skull was smooth with strange ridges that all met in a central ridge,
+                similar to the appearance of a leaf's veins.
+                The skull in particular did not resemble the skull of a healthy human.</p>
+        </section>
+    </main>
+    <footer>
+        <a href="https://www.youtube.com/watch?v=Rgqokr8xB2A"><img src="./src/public/я.jpg" width="200" height="200" alt="Video 1"></a>
+        <a href="https://www.youtube.com/watch?v=scmElhAhMAs"><img src="./src/public/я1.jpg" width="200" height="200" alt="Video 2"></a>
+        <a href="https://www.youtube.com/watch?v=rhq2porAyYQ"><img src="./src/public/я2.jpg" width="200" height="200" alt="Video 3"></a>
+    </footer>
+    <script src="./js/script.js"></script>
+    <script>
+        document.getElementById("burger2").addEventListener("click", function () {
+            document.querySelector(".navbar").classList.toggle("open");
+        });
+    </script>
+</body>
+</html>
